@@ -6,6 +6,8 @@ public class Enemy : EnemyBehaviour
     [SerializeField] private AIStateMachine aiState;
     [SerializeField] private Animator animator;
     [SerializeField] private RagdollController ragdollController;
+    [SerializeField] private GameObject damageFieldPowerup;
+    [SerializeField] private float powerupDropChance = 0.1f;
     
     [Header("Collision Settings")]
     [SerializeField] private bool disableCollisionOnDeath = true;
@@ -161,7 +163,11 @@ public class Enemy : EnemyBehaviour
         /// 
         ////////////////////////////////////////////////////////////////////////////////////
 
-
+        float randomValue = Random.Range(0.0f, 1.0f);
+        if (randomValue < powerupDropChance)
+        {
+            Instantiate(damageFieldPowerup, transform.position, Quaternion.identity);
+        }
     }
 
     private void NotifySpawnManagerOfDeath()

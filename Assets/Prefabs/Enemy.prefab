@@ -191,12 +191,15 @@ MonoBehaviour:
   aiState: {fileID: 7665463184670261277}
   animator: {fileID: 2307198271415958463}
   ragdollController: {fileID: 5036459351860639615}
+  damageFieldPowerup: {fileID: 6130607781026690603, guid: 18a1e10b25981b44fb9e7a423d4bc829, type: 3}
+  powerupDropChance: 0.2
   disableCollisionOnDeath: 1
   collisionDisableDelay: 0.1
   useImpactAnimations: 1
   impactAnimationName: Impact
   impactAnimationBlendTime: 0.1
   impactLayerName: Upper Body
+  deathCleanupDelay: 3
 --- !u!114 &5036459351860639615
 MonoBehaviour:
   m_ObjectHideFlags: 0
