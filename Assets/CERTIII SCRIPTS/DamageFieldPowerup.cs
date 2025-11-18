@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class DamageFieldPowerup : MonoBehaviour
 {
-    [SerializeField] private float duration = 30.0f;
+    [SerializeField] private float duration = 10.0f;
     [SerializeField] private GameObject damageField;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created

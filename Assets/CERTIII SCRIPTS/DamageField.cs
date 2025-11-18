@@ -17,15 +17,29 @@ public class DamageField : MonoBehaviour
     // Increments each timer for each enemy and if the timer exceed the damage time threshold, damages the enemy and resets their timer
     void Update()
     {
+        List<int> toDelete = new List<int>();
         for (int i = 0; i < enemiesInField.Count; i++)
         {
-            enemyTimers[i] += Time.deltaTime;
-            if (enemyTimers[i] >= damageTime)
+            if (enemiesInField[i] == null)
             {
-                Debug.Log("Enemy damaged by damage field: " + enemiesInField[i].name);
-                enemiesInField[i].GetComponent<Enemy>().GetShot();
-                enemyTimers[i] = 0;
+                toDelete.Add(i);
             }
+            else
+            {
+                enemyTimers[i] += Time.deltaTime;
+                if (enemyTimers[i] >= damageTime)
+                {
+                    Debug.Log("Enemy damaged by damage field: " + enemiesInField[i].name);
+                    enemiesInField[i].GetComponent<Enemy>().GetShot();
+                    enemyTimers[i] = 0;
+                }
+            }
+        }
+
+        foreach (int i in toDelete)
+        {
+            enemiesInField.RemoveAt(i);
+            enemyTimers.RemoveAt(i);
         }
     }
 

@@ -193,6 +193,7 @@ MonoBehaviour:
   ragdollController: {fileID: 5036459351860639615}
   damageFieldPowerup: {fileID: 6130607781026690603, guid: 18a1e10b25981b44fb9e7a423d4bc829, type: 3}
   powerupDropChance: 0.2
+  powerupSpawnOffset: {x: 0, y: 0.16, z: 0}
   disableCollisionOnDeath: 1
   collisionDisableDelay: 0.1
   useImpactAnimations: 1

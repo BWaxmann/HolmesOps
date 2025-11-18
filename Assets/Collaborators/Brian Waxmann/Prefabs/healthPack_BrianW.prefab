@@ -101,5 +101,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce83466bd6c52c94ea14915db68ba981, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duration: 30
+  duration: 10
   damageField: {fileID: 470237592140510542, guid: 94e8652796266424ca4e6cd9a3219ee3, type: 3}
