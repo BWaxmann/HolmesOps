@@ -70,3 +70,9 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+Assets/Collaborators/Brian Waxmann/Animations/ClothTutorial.abc
+Assets/Collaborators/Brian Waxmann/Animations/ClothTutorial.abc.meta
+Assets/Collaborators/Brian Waxmann/Animations/ClothTutorialTimeline.playable
+Assets/Collaborators/Brian Waxmann/Animations/ClothTutorialTimeline.playable.meta
+Assets/Collaborators/Brian Waxmann/Scenes/ClothTutorial_BrianW.unity
+Assets/Collaborators/Brian Waxmann/Scenes/ClothTutorial_BrianW.unity.meta
