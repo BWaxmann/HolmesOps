@@ -1,0 +1,626 @@
+fileFormatVersion: 2
+guid: c3db492a3df05d94aa2dab11db66343c
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      internalID: 1827226128182048838
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Assessment2Anim1(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:Character
+      parentName: Assessment2Anim1(Clone)
+      position: {x: -0.00000074386594, y: -0.015881712, z: 0.06646781}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:Joint_GRP
+      parentName: soldier_rig:Character
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:Bind_Joint_GRP
+      parentName: soldier_rig:Joint_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:Bind_Hips
+      parentName: soldier_rig:Bind_Joint_GRP
+      position: {x: 0.0000002670288, y: 1.0437526, z: -0.071696594}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:FK_LeftUpLeg
+      parentName: soldier_rig:Bind_Hips
+      position: {x: -0.094245195, y: -0.04904991, z: -0.0015204072}
+      rotation: {x: 0.0023644264, y: -0.026483389, z: 0.9956861, w: 0.08889435}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:FK_LeftLeg
+      parentName: soldier_rig:FK_LeftUpLeg
+      position: {x: 7.105427e-17, y: 0.44650203, z: 1.7763568e-17}
+      rotation: {x: -0.03759384, y: 0.0010170788, z: -0.027025374, w: 0.9989271}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:FK_LeftFoot
+      parentName: soldier_rig:FK_LeftLeg
+      position: {x: -3.5527136e-17, y: 0.40451077, z: 3.5527136e-17}
+      rotation: {x: 0.51977813, y: -0.050240293, z: 0.030640218, w: 0.85227215}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:FK_LeftToeBase
+      parentName: soldier_rig:FK_LeftFoot
+      position: {x: -3.5527136e-17, y: 0.2099234, z: 1.7763568e-17}
+      rotation: {x: 0.29193187, y: 0.03418633, z: -0.010441914, w: 0.9557709}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:FK_LeftToe_End
+      parentName: soldier_rig:FK_LeftToeBase
+      position: {x: -0, y: 0.083719715, z: 4.4408918e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:FK_RightUpLeg
+      parentName: soldier_rig:Bind_Hips
+      position: {x: 0.094245195, y: -0.04904991, z: 0.007440674}
+      rotation: {x: -0.0033861655, y: -0.037983637, z: 0.9953253, w: -0.08873134}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:FK_RightLeg
+      parentName: soldier_rig:FK_RightUpLeg
+      position: {x: 1.0658141e-16, y: 0.4471503, z: 0}
+      rotation: {x: -0.026399387, y: -0.0007131889, z: 0.026996087, w: 0.99928665}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:FK_RightFoot
+      parentName: soldier_rig:FK_RightLeg
+      position: {x: -1.0658141e-16, y: 0.40453205, z: -1.7763568e-17}
+      rotation: {x: 0.5201444, y: 0.047913652, z: -0.029243238, w: 0.85223174}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:FK_RightToeBase
+      parentName: soldier_rig:FK_RightFoot
+      position: {x: 7.105427e-17, y: 0.21000174, z: -3.5527136e-17}
+      rotation: {x: 0.29170907, y: -0.033, z: 0.01007067, w: 0.95588464}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:FK_RightToe_End
+      parentName: soldier_rig:FK_RightToeBase
+      position: {x: -1.0658141e-16, y: 0.08250517, z: 3.5527136e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:IK_LeftUpLeg
+      parentName: soldier_rig:Bind_Hips
+      position: {x: -0.094245195, y: -0.04904991, z: -0.0015204072}
+      rotation: {x: -0.00918245, y: 0.05426437, z: 0.9980734, w: 0.028645594}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:IK_LeftLeg
+      parentName: soldier_rig:IK_LeftUpLeg
+      position: {x: 7.105427e-17, y: 0.44650203, z: 1.7763568e-17}
+      rotation: {x: -0.20302027, y: 0.02624111, z: -0.001424298, w: 0.9788218}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:IK_LeftFoot
+      parentName: soldier_rig:IK_LeftLeg
+      position: {x: -3.5527136e-17, y: 0.40451077, z: 3.5527136e-17}
+      rotation: {x: 0.58615786, y: -0.12014654, z: -0.039141335, w: 0.8002823}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:IK_LeftToeBase
+      parentName: soldier_rig:IK_LeftFoot
+      position: {x: -3.5527136e-17, y: 0.2099234, z: 1.7763568e-17}
+      rotation: {x: 0.29193372, y: 0.034186203, z: -0.010442326, w: 0.9557704}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:IK_LeftToe_End
+      parentName: soldier_rig:IK_LeftToeBase
+      position: {x: -0, y: 0.083719715, z: 4.4408918e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:LeftLeg_IK_CTRL_GuideCurve_Cluster2Handle
+      parentName: soldier_rig:IK_LeftLeg
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.27476823, y: -0.09367938, z: 0.9524179, w: -0.092879966}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:IK_RightUpLeg
+      parentName: soldier_rig:Bind_Hips
+      position: {x: 0.094245195, y: -0.04904991, z: 0.007440674}
+      rotation: {x: 0.11748606, y: 0.049291298, z: 0.9908079, w: -0.045465633}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:IK_RightLeg
+      parentName: soldier_rig:IK_RightUpLeg
+      position: {x: 1.0658141e-16, y: 0.4471503, z: 0}
+      rotation: {x: -0.201311, y: -0.032292042, z: 0.00024691544, w: 0.97899497}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:IK_RightFoot
+      parentName: soldier_rig:IK_RightLeg
+      position: {x: -1.0658141e-16, y: 0.40453205, z: -1.7763568e-17}
+      rotation: {x: 0.588875, y: 0.22329289, z: -0.008075081, w: 0.77672476}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:IK_RightToeBase
+      parentName: soldier_rig:IK_RightFoot
+      position: {x: 7.105427e-17, y: 0.21000174, z: -3.5527136e-17}
+      rotation: {x: 0.29170948, y: -0.032999866, z: 0.010071105, w: 0.9558845}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:IK_RightToe_End
+      parentName: soldier_rig:IK_RightToeBase
+      position: {x: -1.0658141e-16, y: 0.08250517, z: 3.5527136e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:RightLeg_IK_CTRL_GuideCurve_Cluster2Handle
+      parentName: soldier_rig:IK_RightLeg
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.35026613, y: -0.10107065, z: 0.9273036, w: 0.0848901}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:Bind_Spine
+      parentName: soldier_rig:Bind_Hips
+      position: {x: -0, y: 0.088357925, z: -0.006710294}
+      rotation: {x: -0.037890393, y: -0, z: -0, w: 0.99928194}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:Bind_Spine1
+      parentName: soldier_rig:Bind_Spine
+      position: {x: -0, y: 0.1033811, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: soldier_rig:Bind_Spine2
+      parentName: soldier_rig:Bind_Spine1
+      position: {x: -0, y: 0.11814977, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: soldier_rig:Bind_Neck
+      parentName: soldier_rig:Bind_Spine2
+      position: {x: -0, y: 0.13291858, z: 0.000000010044927}
+      rotation: {x: -0.0944292, y: -0, z: -0, w: 0.9955316}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: soldier_rig:Bind_Head
+      parentName: soldier_rig:Bind_Neck
+      position: {x: -0, y: 0.09494323, z: 0.088624224}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: soldier_rig:Bind_HeadTop_End
+      parentName: soldier_rig:Bind_Head
+      position: {x: -0, y: 0.13207108, z: 0.12328095}
+      rotation: {x: -7.70372e-34, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:Bind_LeftShoulder
+      parentName: soldier_rig:Bind_Spine2
+      position: {x: -0.062735125, y: 0.10940458, z: -0.0017996434}
+      rotation: {x: 0.56700665, y: -0.41695207, z: 0.58331025, w: 0.40546727}
+      scale: {x: 1, y: 1, z: 1.0000004}
+    - name: soldier_rig:FK_LeftArm
+      parentName: soldier_rig:Bind_LeftShoulder
+      position: {x: -0, y: 0.13383637, z: -2.842171e-16}
+      rotation: {x: 0.3045897, y: -0.038687002, z: 0.012382776, w: 0.9516171}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:FK_LeftForeArm
+      parentName: soldier_rig:FK_LeftArm
+      position: {x: -1.3322676e-17, y: 0.22842607, z: -1.4210854e-16}
+      rotation: {x: -0.038174, y: 0.0027030993, z: -0.070581354, w: 0.99677163}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:FK_LeftHand
+      parentName: soldier_rig:FK_LeftForeArm
+      position: {x: -3.5527136e-17, y: 0.25431344, z: 1.4210854e-16}
+      rotation: {x: 0.028877405, y: 0.14148879, z: -0.06457155, w: 0.98740953}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:IK_LeftArm
+      parentName: soldier_rig:Bind_LeftShoulder
+      position: {x: -0, y: 0.13383637, z: -2.842171e-16}
+      rotation: {x: 0.08909347, y: -0.063047625, z: 0.12065523, w: 0.9866761}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:IK_LeftForeArm
+      parentName: soldier_rig:IK_LeftArm
+      position: {x: -1.3322676e-17, y: 0.22842607, z: -1.4210854e-16}
+      rotation: {x: -0.02267239, y: -0.047751468, z: -0.2644351, w: 0.9629537}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:IK_LeftHand
+      parentName: soldier_rig:IK_LeftForeArm
+      position: {x: -3.5527136e-17, y: 0.25431344, z: 1.4210854e-16}
+      rotation: {x: 0.038641147, y: 0.22012405, z: 0.026100304, w: 0.9743568}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:LeftForeArm_IK_CTRL_GuideCurve_Cluster2Handle
+      parentName: soldier_rig:IK_LeftForeArm
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.5375377, y: -0.12697452, z: 0.77327406, w: -0.311413}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:Bind_LeftArm
+      parentName: soldier_rig:Bind_LeftShoulder
+      position: {x: -0, y: 0.13383637, z: -2.842171e-16}
+      rotation: {x: -0.14515957, y: -0.043811243, z: 0.0054335888, w: 0.98842293}
+      scale: {x: 1.0000001, y: 1, z: 0.99999976}
+    - name: soldier_rig:Bind_LeftForeArm
+      parentName: soldier_rig:Bind_LeftArm
+      position: {x: 4.440892e-18, y: 0.22842607, z: -1.4210854e-16}
+      rotation: {x: -0.029847987, y: 0.0033586614, z: -0.038218267, w: 0.998818}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: soldier_rig:LeftForeArm_IK_BakingLOC
+      parentName: soldier_rig:Bind_LeftForeArm
+      position: {x: -0.114213035, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:Bind_LeftHand
+      parentName: soldier_rig:Bind_LeftForeArm
+      position: {x: -1.7763568e-17, y: 0.25431344, z: 1.4210854e-16}
+      rotation: {x: 0.028876469, y: 0.14148855, z: -0.06457195, w: 0.98740953}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: soldier_rig:Bind_LeftHandMiddle1
+      parentName: soldier_rig:Bind_LeftHand
+      position: {x: -0.02963978, y: 0.17840572, z: 0.000000016937483}
+      rotation: {x: 0.042198334, y: 0.0014103503, z: 0.03337094, w: 0.99855083}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: soldier_rig:Bind_LeftHandMiddle2
+      parentName: soldier_rig:Bind_LeftHandMiddle1
+      position: {x: -0.0011814858, y: 0.04015302, z: 0}
+      rotation: {x: 0.039289728, y: -0.0005883389, z: 0.0060374993, w: 0.99920946}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000001}
+    - name: soldier_rig:Bind_LeftHandMiddle3
+      parentName: soldier_rig:Bind_LeftHandMiddle2
+      position: {x: -0.00016565729, y: 0.042523246, z: 1.4210854e-16}
+      rotation: {x: 0.035714876, y: 0.002208026, z: 0.017812824, w: 0.9992009}
+      scale: {x: 1, y: 1.0000006, z: 1}
+    - name: soldier_rig:Bind_LeftHandMiddle4
+      parentName: soldier_rig:Bind_LeftHandMiddle3
+      position: {x: 0.001347143, y: 0.0312923, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:Bind_LeftHandThumb1
+      parentName: soldier_rig:Bind_LeftHand
+      position: {x: 0.0022399, y: 0.054431014, z: 0.024199966}
+      rotation: {x: 0.14760084, y: 0.053368438, z: -0.17173962, w: 0.97255915}
+      scale: {x: 1, y: 1.0000002, z: 0.9999999}
+    - name: soldier_rig:Bind_LeftHandThumb2
+      parentName: soldier_rig:Bind_LeftHandThumb1
+      position: {x: 0.0045570675, y: 0.047469903, z: 0}
+      rotation: {x: 0.030416697, y: 0.0014944442, z: -0.058321152, w: 0.9978333}
+      scale: {x: 1, y: 1.0000005, z: 1.0000001}
+    - name: soldier_rig:Bind_LeftHandThumb3
+      parentName: soldier_rig:Bind_LeftHandThumb2
+      position: {x: -0.0027435294, y: 0.044468887, z: 0}
+      rotation: {x: -0.040042013, y: 0.0018681919, z: 0.002323573, w: 0.9991936}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000002}
+    - name: soldier_rig:Bind_LeftHandThumb4
+      parentName: soldier_rig:Bind_LeftHandThumb3
+      position: {x: -0.0018135381, y: 0.035279755, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:Bind_LeftHandIndex1
+      parentName: soldier_rig:Bind_LeftHand
+      position: {x: 0.02963978, y: 0.1950835, z: 0.000000017007435}
+      rotation: {x: 0.035194475, y: 0.0013632925, z: 0.03868846, w: 0.99863046}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: soldier_rig:Bind_LeftHandIndex2
+      parentName: soldier_rig:Bind_LeftHandIndex1
+      position: {x: -0.00007630301, y: 0.039987527, z: 0}
+      rotation: {x: 0.038784474, y: 0.00037380017, z: 0.0051208003, w: 0.99923444}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000001}
+    - name: soldier_rig:Bind_LeftHandIndex3
+      parentName: soldier_rig:Bind_LeftHandIndex2
+      position: {x: 0.00065092585, y: 0.04155813, z: 0}
+      rotation: {x: -0.03838398, y: 0.00007947688, z: -0.009787693, w: 0.9992151}
+      scale: {x: 1, y: 1.0000008, z: 1.0000002}
+    - name: soldier_rig:Bind_LeftHandIndex4
+      parentName: soldier_rig:Bind_LeftHandIndex3
+      position: {x: -0.0005746228, y: 0.0305611, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:Bind_RightShoulder
+      parentName: soldier_rig:Bind_Spine2
+      position: {x: 0.062735125, y: 0.109402485, z: -0.0017720186}
+      rotation: {x: -0.5679497, y: -0.41571712, z: 0.58252484, w: -0.4065431}
+      scale: {x: 1, y: 0.9999999, z: 1.0000001}
+    - name: soldier_rig:FK_RightArm
+      parentName: soldier_rig:Bind_RightShoulder
+      position: {x: -0, y: 0.13383637, z: 2.842171e-16}
+      rotation: {x: 0.30455464, y: 0.041661255, z: -0.013335012, w: 0.95148987}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:FK_RightForeArm
+      parentName: soldier_rig:FK_RightArm
+      position: {x: -0, y: 0.22842759, z: -1.4210854e-16}
+      rotation: {x: -0.038567375, y: -0.002761145, z: 0.07135658, w: 0.9967012}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:FK_RightHand
+      parentName: soldier_rig:FK_RightForeArm
+      position: {x: -7.9936054e-17, y: 0.25426313, z: 1.4210854e-16}
+      rotation: {x: 0.021311032, y: -0.08712618, z: 0.064056545, w: 0.9939073}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:IK_RightArm
+      parentName: soldier_rig:Bind_RightShoulder
+      position: {x: -0, y: 0.13383637, z: 2.842171e-16}
+      rotation: {x: 0.08871241, y: 0.06553511, z: -0.121867485, w: 0.98639935}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:IK_RightForeArm
+      parentName: soldier_rig:IK_RightArm
+      position: {x: -0, y: 0.22842759, z: -1.4210854e-16}
+      rotation: {x: -0.022937493, y: 0.04824183, z: 0.26462668, w: 0.96287036}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:IK_RightHand
+      parentName: soldier_rig:IK_RightForeArm
+      position: {x: -7.9936054e-17, y: 0.25426313, z: 1.4210854e-16}
+      rotation: {x: 0.036160283, y: -0.1662142, z: -0.025731718, w: 0.9850905}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:RightForeArm_IK_CTRL_GuideCurve_Cluster2Handle
+      parentName: soldier_rig:IK_RightForeArm
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.54003185, y: -0.1286395, z: 0.7715687, w: 0.31064332}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:Bind_RightArm
+      parentName: soldier_rig:Bind_RightShoulder
+      position: {x: -0, y: 0.13383637, z: 2.842171e-16}
+      rotation: {x: 0.1443169, y: -0.04002164, z: -0.016515581, w: -0.988584}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: soldier_rig:Bind_RightForeArm
+      parentName: soldier_rig:Bind_RightArm
+      position: {x: -0, y: 0.22842759, z: 0}
+      rotation: {x: -0.030080706, y: -0.0034042692, z: 0.039183743, w: 0.99877334}
+      scale: {x: 1, y: 1.0000006, z: 1.0000002}
+    - name: soldier_rig:RightForeArm_IK_BakingLOC
+      parentName: soldier_rig:Bind_RightForeArm
+      position: {x: 0.114213794, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:Bind_RightHand
+      parentName: soldier_rig:Bind_RightForeArm
+      position: {x: -8.881784e-18, y: 0.25426313, z: 1.4210854e-16}
+      rotation: {x: -0.021312416, y: 0.08712625, z: -0.06405635, w: -0.9939072}
+      scale: {x: 1, y: 0.99999994, z: 0.99999976}
+    - name: soldier_rig:Bind_RightHandMiddle1
+      parentName: soldier_rig:Bind_RightHand
+      position: {x: 0.031673547, y: 0.17448957, z: -0.0000000010736528}
+      rotation: {x: 0.07762595, y: -0.0014315544, z: -0.040916916, w: 0.9961416}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000002}
+    - name: soldier_rig:Bind_RightHandMiddle2
+      parentName: soldier_rig:Bind_RightHandMiddle1
+      position: {x: 0.0021613988, y: 0.051994514, z: 0}
+      rotation: {x: 0.03454669, y: -0.00016634156, z: -0.032813087, w: 0.99886423}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1}
+    - name: soldier_rig:Bind_RightHandMiddle3
+      parentName: soldier_rig:Bind_RightHandMiddle2
+      position: {x: -0.0017411059, y: 0.03906015, z: 0}
+      rotation: {x: -0.039588973, y: 0.00032418186, z: 0.0028948055, w: 0.9992118}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: soldier_rig:Bind_RightHandMiddle4
+      parentName: soldier_rig:Bind_RightHandMiddle3
+      position: {x: -0.00042029287, y: 0.024731087, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:Bind_RightHandIndex1
+      parentName: soldier_rig:Bind_RightHand
+      position: {x: -0.031673547, y: 0.19364753, z: 7.69662e-10}
+      rotation: {x: 0.010539033, y: -0.00015742327, z: -0.014975855, w: 0.99983233}
+      scale: {x: 1.0000006, y: 1.0000011, z: 1.0000004}
+    - name: soldier_rig:Bind_RightHandIndex2
+      parentName: soldier_rig:Bind_RightHandIndex1
+      position: {x: 0.0016551297, y: 0.037536647, z: 0}
+      rotation: {x: 0.03662673, y: 0.00096877164, z: -0.02000366, w: 0.99912834}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000004}
+    - name: soldier_rig:Bind_RightHandIndex3
+      parentName: soldier_rig:Bind_RightHandIndex2
+      position: {x: -0.00070543465, y: 0.04227451, z: 0}
+      rotation: {x: 0.021583175, y: 0.00000022279139, z: 0.000000022610452, w: 0.9997671}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: soldier_rig:Bind_RightHandIndex4
+      parentName: soldier_rig:Bind_RightHandIndex3
+      position: {x: -0.00094969507, y: 0.03404337, z: 1.4210854e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:Bind_RightHandThumb1
+      parentName: soldier_rig:Bind_RightHand
+      position: {x: -0.005917251, y: 0.054907717, z: 0.022451198}
+      rotation: {x: 0.11598059, y: -0.03826782, z: 0.18873721, w: 0.9744036}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000005}
+    - name: soldier_rig:Bind_RightHandThumb2
+      parentName: soldier_rig:Bind_RightHandThumb1
+      position: {x: -0.0034936864, y: 0.047563747, z: 0}
+      rotation: {x: -0.033397842, y: 0.00369913, z: -0.038539782, w: -0.9986919}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.99999994}
+    - name: soldier_rig:Bind_RightHandThumb3
+      parentName: soldier_rig:Bind_RightHandThumb2
+      position: {x: 0.00095185876, y: 0.04377861, z: 0}
+      rotation: {x: -0.037096936, y: -0.0036534702, z: 0.015659807, w: 0.99918234}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000004}
+    - name: soldier_rig:Bind_RightHandThumb4
+      parentName: soldier_rig:Bind_RightHandThumb3
+      position: {x: 0.0025418277, y: 0.03779571, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:Bind_LeftUpLeg
+      parentName: soldier_rig:Bind_Hips
+      position: {x: -0.094245195, y: -0.04904991, z: -0.0015204072}
+      rotation: {x: 0.0023644257, y: -0.026483428, z: 0.9956861, w: 0.08889436}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: soldier_rig:Bind_LeftLeg
+      parentName: soldier_rig:Bind_LeftUpLeg
+      position: {x: 3.5527136e-17, y: 0.44650203, z: 8.881784e-18}
+      rotation: {x: -0.037593834, y: 0.0010170827, z: -0.027025348, w: 0.9989271}
+      scale: {x: 1.0000002, y: 1, z: 1}
+    - name: soldier_rig:LeftLeg_IK_BakingLOC
+      parentName: soldier_rig:Bind_LeftLeg
+      position: {x: -0, y: 0, z: 0.22325101}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:Bind_LeftFoot
+      parentName: soldier_rig:Bind_LeftLeg
+      position: {x: -0, y: 0.40451077, z: 1.7763568e-17}
+      rotation: {x: 0.51977825, y: -0.0502405, z: 0.030640004, w: 0.8522721}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1}
+    - name: soldier_rig:LeftFoot_IK_BakingLOC
+      parentName: soldier_rig:Bind_LeftFoot
+      position: {x: -0.0000019111062, y: 0.000001346186, z: 0.0000050608132}
+      rotation: {x: 0.11702331, y: 0.4558404, z: 0.88025147, w: -0.060600813}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:Bind_LeftToeBase
+      parentName: soldier_rig:Bind_LeftFoot
+      position: {x: -3.5527136e-17, y: 0.2099234, z: -8.881784e-18}
+      rotation: {x: 0.29193175, y: 0.034186486, z: -0.010442006, w: 0.95577097}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000004}
+    - name: soldier_rig:Bind_LeftToe_End
+      parentName: soldier_rig:Bind_LeftToeBase
+      position: {x: 3.5527136e-17, y: 0.083719715, z: 8.881784e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:Bind_RightUpLeg
+      parentName: soldier_rig:Bind_Hips
+      position: {x: 0.094245195, y: -0.04904991, z: 0.007440674}
+      rotation: {x: -0.0033861739, y: -0.037983637, z: 0.9953254, w: -0.088731185}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:Bind_RightLeg
+      parentName: soldier_rig:Bind_RightUpLeg
+      position: {x: 3.5527136e-17, y: 0.4471503, z: 0}
+      rotation: {x: -0.026399324, y: -0.0007132217, z: 0.026996395, w: 0.9992867}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1}
+    - name: soldier_rig:RightLeg_IK_BakingLOC
+      parentName: soldier_rig:Bind_RightLeg
+      position: {x: -0, y: 0, z: 0.22357515}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:Bind_RightFoot
+      parentName: soldier_rig:Bind_RightLeg
+      position: {x: -3.5527136e-17, y: 0.40453205, z: -1.7763568e-17}
+      rotation: {x: 0.5201442, y: 0.047913518, z: -0.029243566, w: 0.85223186}
+      scale: {x: 1.0000005, y: 1.0000006, z: 0.9999999}
+    - name: soldier_rig:RightFoot_IK_BakingLOC
+      parentName: soldier_rig:Bind_RightFoot
+      position: {x: 0.0000044522453, y: 0.000002506877, z: 0.000007115497}
+      rotation: {x: -0.11696073, y: 0.45610672, z: 0.880121, w: 0.06061277}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:Bind_RightToeBase
+      parentName: soldier_rig:Bind_RightFoot
+      position: {x: -0, y: 0.21000174, z: -1.7763568e-17}
+      rotation: {x: 0.29170924, y: -0.03300004, z: 0.010070649, w: 0.9558846}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000001}
+    - name: soldier_rig:Bind_RightToe_End
+      parentName: soldier_rig:Bind_RightToeBase
+      position: {x: -3.5527136e-17, y: 0.08250517, z: 8.881784e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:Mesh_GRP
+      parentName: soldier_rig:Character
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: soldier_rig:Mesh_Enemy
+      parentName: soldier_rig:Mesh_GRP
+      position: {x: 0.00000074386594, y: 0.015881712, z: -0.06646781}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Door
+      parentName: Assessment2Anim1(Clone)
+      position: {x: -0, y: 0, z: 0.9}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
